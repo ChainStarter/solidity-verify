@@ -1,0 +1,24 @@
+{
+  "name": "sol-merge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/rowen007/sol-merge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rowen007/sol-merge/issues"
+  },
+  "homepage": "https://github.com/rowen007/sol-merge#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0",
+    "commander": "^9.1.0",
+    "solc": "^0.8.13"
+  }
+}
