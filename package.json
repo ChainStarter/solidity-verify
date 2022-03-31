@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://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@github.com/rowen007/sol-merge.git"
+    "url": "git@github.com:ChainStarter/solidity-verify.git"
   },
   "author": "rowen",
   "license": "ISC",
