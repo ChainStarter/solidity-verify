@@ -68,7 +68,7 @@ const compile = async (contract, version, name, optimization, optimizationRuns) 
       },
       optimizer: {
         enabled: optimization,
-        runs: optimizationRuns
+        runs: parseInt(optimizationRuns)
       }
     }
   };
