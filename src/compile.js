@@ -130,9 +130,15 @@ const compile = async (contract, version, name, optimization, optimizationRuns) 
     sources
   }
 
+
   metadata = JSON.stringify(json)
 
-  const metadata_file = path.resolve(path.dirname(file), `${name}_metadata.json`);
+  const metadata_dir = path.resolve(path.dirname(file), `metadata`);
+  if(!fs.existsSync(metadata_dir)){
+    fs.mkdirSync(metadata_dir)
+  }
+
+  const metadata_file = path.resolve(metadata_dir, `${name}_metadata.json`);
   console.log('generate metadata to ', metadata_file)
   fs.writeFileSync(metadata_file, metadata)
   return metadata
