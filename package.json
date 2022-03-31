@@ -16,9 +16,9 @@
   "author": "rowen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rowen007/sol-merge/issues"
+    "url": "https://github.com/ChainStarter/solidity-verify/issues"
   },
-  "homepage": "https://github.com/rowen007/sol-merge#readme",
+  "homepage": "https://github.com/ChainStarter/solidity-verify#readme",
   "dependencies": {
     "@openzeppelin/contracts": "^4.5.0",
     "axios": "^0.26.1",
