@@ -1,10 +1,13 @@
 {
-  "name": "sol-merge",
+  "name": "solidity-verify",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "solidity-verify": "index.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +21,10 @@
   "homepage": "https://github.com/rowen007/sol-merge#readme",
   "dependencies": {
     "@openzeppelin/contracts": "^4.5.0",
+    "axios": "^0.26.1",
     "commander": "^9.1.0",
+    "find": "^0.3.0",
+    "lodash": "^4.17.21",
     "solc": "^0.8.13"
   }
 }
