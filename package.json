@@ -1,5 +1,5 @@
 {
-  "name": "solidity-verify",
+  "name": "@chainstarter/solidity-verify",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://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@github.com/rowen007/sol-merge.git"
   },
-  "author": "",
+  "author": "rowen",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rowen007/sol-merge/issues"

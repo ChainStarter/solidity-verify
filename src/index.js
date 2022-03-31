@@ -5,8 +5,8 @@ const {compile} = require("./compile");
 // const fs = require('fs')
 
 program
-  .name('sol info')
-  .description('ddd')
+  .name('solidity-verify')
+  .description('Compile contract and generate metadata to verify contracts')
   .argument('<path>', "file to compile")
   .option('-v,  --version <version>', "solc version", 'v0.8.11')
   .option('-n,  --name <name>', "contract name", '')
