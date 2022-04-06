@@ -76,7 +76,7 @@ const compile = async (contract, version, name, optimization, optimizationRuns) 
   const sol_files = await getSolFiles()
 
   const findImports = (import_path) => {
-    const file = sol_files.find(file => file.indexOf(import_path) > -1)
+    const file = sol_files.find(file => file.indexOf("/" + import_path) > -1)
     if (typeof file == 'undefined') {
       console.log('file is not found', import_path)
       process.exit()
